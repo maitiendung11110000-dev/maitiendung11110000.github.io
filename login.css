@@ -78,27 +78,3 @@ h2 {
     text-decoration: underline;
     color: blue;
 }
-/* máy tính bảng */
-@media (min-width: 768px) {
-    
-    .product-listing {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-
-    .product-card {
-        flex: 1 1 calc(50% - 20px); 
-        margin: 0;
-    }
-}
-/* Laptop */
-@media (min-width: 1024px) {
-    .product-card {
-        flex: 1 1 calc(33.33% - 20px); 
-    }
-    .main-nav ul {
-        justify-content: flex-start;
-        padding: 10px 50px;
-    }
-}
